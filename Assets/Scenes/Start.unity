@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 477184397}
   - component: {fileID: 477184396}
   - component: {fileID: 477184395}
+  - component: {fileID: 477184399}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -450,6 +451,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &477184399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477184394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d5fc685d28ef74898587f819b79f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _start: {fileID: 1270175178}
+  _exit: {fileID: 1679374432}
 --- !u!1 &690633544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1147,6 @@ GameObject:
   - component: {fileID: 1270175180}
   - component: {fileID: 1270175179}
   - component: {fileID: 1270175178}
-  - component: {fileID: 1270175181}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1242,19 +1256,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270175176}
   m_CullTransparentMesh: 1
---- !u!114 &1270175181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270175176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d5fc685d28ef74898587f819b79f35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _startPanel: {fileID: 1270175178}
 --- !u!1 &1381557730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,7 +1464,6 @@ GameObject:
   - component: {fileID: 1679374434}
   - component: {fileID: 1679374433}
   - component: {fileID: 1679374432}
-  - component: {fileID: 1679374431}
   m_Layer: 5
   m_Name: EXIT
   m_TagString: Untagged
@@ -1491,19 +1491,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -450}
   m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1679374431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679374429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d5fc685d28ef74898587f819b79f35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _startPanel: {fileID: 1679374432}
 --- !u!114 &1679374432
 MonoBehaviour:
   m_ObjectHideFlags: 0

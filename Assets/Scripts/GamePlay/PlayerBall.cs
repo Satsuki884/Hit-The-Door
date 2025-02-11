@@ -112,6 +112,9 @@ public class PlayerBall : MonoBehaviour
 
             shotPreview.transform.position = mouseWorldPosition;
             shotPreview.transform.localScale = Vector3.one * currentCharge;
+
+            RemoveHighlight();
+            
             HighlightObjectsInRadius(shotPreview.transform.position, currentCharge * infectionRadiusFactor);
 
             if (transform.localScale.x <= _minPlayerSizeForLose)
